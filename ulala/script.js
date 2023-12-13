@@ -825,8 +825,8 @@ async function init20() {
 }
 
 
-async function init53() {
-  const video = document.getElementById('jtv');
+async function init21() {
+  const video = document.getElementById('net');
   const ui = video['ui'];
   const config = {
     'seekBarColors': {
@@ -860,8 +860,8 @@ async function init53() {
   }
 }
 
-
-  const video = document.getElementById('net');
+async function init53() {
+  const video = document.getElementById('jtv');
   const ui = video['ui'];
   const config = {
     'seekBarColors': {
