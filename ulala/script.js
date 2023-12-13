@@ -841,7 +841,7 @@ async function init21() {
   player.configure({
     drm: {
       clearKeys: {
-        '10e203f655014b5d18b0c85a6c72c809': 'acdcd0b65014e4929c6296171bdfebad'
+        '6b7bbcf1d511a56e6b3ceda392e4fa33': 'd1766244d7c1c44efd4c67aafae3ee7b'
       }
     }
   });
@@ -876,7 +876,7 @@ async function init53() {
   player.configure({
     drm: {
       clearKeys: {
-        '6b7bbcf1d511a56e6b3ceda392e4fa33': 'd1766244d7c1c44efd4c67aafae3ee7b'
+        '10e203f655014b5d18b0c85a6c72c809': 'acdcd0b65014e4929c6296171bdfebad'
       }
     }
   });
