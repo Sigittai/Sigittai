@@ -27,6 +27,7 @@ let tvri = 'https://alpukat-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_
 let kompas = 'https://alpukat-live-cdn.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd';
 let rtv = 'https://alpukat-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd';
 let net = 'https://alpukat-live-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd';
+let jtv = 'https://alpukat-live-cdn.mncnow.id/live/eds/JTV/sa_dash_vmx/JTV.mpd';
 
 
 //MOVIES
@@ -823,7 +824,43 @@ async function init20() {
   }
 }
 
-async function init21() {
+
+async function init53() {
+  const video = document.getElementById('jtv');
+  const ui = video['ui'];
+  const config = {
+    'seekBarColors': {
+      base: 'blue',
+      buffered: 'red',
+      played: 'yellow',
+    }
+  };
+  ui.configure(config);
+  const controls = ui.getControls();
+  const player = controls.getPlayer();
+  player.configure({
+    drm: {
+      clearKeys: {
+        '10e203f655014b5d18b0c85a6c72c809': 'acdcd0b65014e4929c6296171bdfebad'
+      }
+    }
+  });
+ //player.configure('manifest.dash.ignoreMinBufferTime', true);
+//  player.configure('streaming.rebufferingGoal', 1 /* second */);
+  window.player = player;
+  window.ui = ui;
+
+  player.addEventListener('error', onPlayerErrorEvent);
+  controls.addEventListener('error', onUIErrorEvent);
+  try {
+    await player.load(net);
+    console.log('The video has now been loaded!');
+  } catch (error) {
+    onPlayerError(error);
+  }
+}
+
+
   const video = document.getElementById('net');
   const ui = video['ui'];
   const config = {
@@ -857,6 +894,11 @@ async function init21() {
     onPlayerError(error);
   }
 }
+
+
+
+
+
 
 //MOVIES
 
@@ -2048,6 +2090,7 @@ document.addEventListener('shaka-ui-loaded', init50);
 
  document.addEventListener('shaka-ui-loaded', init51);
  document.addEventListener('shaka-ui-loaded', init52);
+document.addEventListener('shaka-ui-loaded', init53);
 
 //SPORT
 
@@ -2149,6 +2192,11 @@ function ganti_rtv() {
 function ganti_net() {
   net = 'https://pisionplus.xyssatu.workers.dev/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd';
   init21();
+}
+
+function ganti_jtv() {
+  net = 'https://pisionplus.xyssatu.workers.dev/live/eds/JTV/sa_dash_vmx/JTV.mpd';
+  init53();
 }
 
 
