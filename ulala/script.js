@@ -2195,7 +2195,7 @@ function ganti_net() {
 }
 
 function ganti_jtv() {
-  jtv = 'https://pisionplus.xyssatu.workers.dev/live/eds/JTV/sa_dash_vmx/JTV.mpd';
+  jtv = 'https://pisionplus.xyssatu.workers.dev/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd';
   init53();
 }
 
