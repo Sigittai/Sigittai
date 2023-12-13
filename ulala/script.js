@@ -2194,11 +2194,6 @@ function ganti_net() {
   init21();
 }
 
-function ganti_jtv() {
-  jtv = 'https://pisionplus.xyssatu.workers.dev/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd';
-  init53();
-}
-
 
 //MOVIES
 
@@ -2356,4 +2351,9 @@ function ganti_nick_jr() {
 function ganti_oktv() {
   nick_jr = 'https://pisionplus.xyssatu.workers.dev/live/eds/OKTV/sa_dash_vmx/OKTV.mpd';
   init52();
+}
+
+function ganti_jtv() {
+  jtv = 'https://pisionplus.xyssatu.workers.dev/live/eds/OKTV/sa_dash_vmx/OKTV.mpd';
+  init53();
 }
