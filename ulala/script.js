@@ -13,7 +13,7 @@ let fight= 'https://alpukat-live-cdn.mncnow.id/live/eds/FightSports/sa_dash_vmx/
 
 
 //LOKAL
-let oktv = 'https://alpukat-live-cdn.mncnow.id/live/eds/OKTV/sa_dash_vmx/OKTV.mpd';
+let oktv = 'https://nyanv-live-cdn.mncnow.id/live/eds/OKTV/sa_dash_vmx/OKTV.mpd';
 let mnctv = 'https://nyanv-live-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd';
 let rcti = 'https://nyanv-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd';
 let gtv = 'https://nyanv-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd';
@@ -47,14 +47,14 @@ let cinemachi_action = 'https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Acti
 let cinemachi_kids = 'https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Kids-HD/sa_dash_vmx/Cinemachi-Kids-HD.mpd';
 let cinemachi_max = 'https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Max-HD/sa_dash_vmx/Cinemachi-Max-HD.mpd';
 let cinemachi_xtra = 'https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Xtra-HD/sa_dash_vmx/Cinemachi-Xtra-HD.mpd';
-let my_cinema = 'https://alpukat-live-cdn.mncnow.id/live/eds/MyCinema/sa_dash_vmx/MyCinema.mpd';
-let my_cinema_asia = 'https://alpukat-live-cdn.mncnow.id/live/eds/MyCinema-Asia/sa_dash_vmx/MyCinema-Asia.mpd';
-let my_family = 'https://alpukat-live-cdn.mncnow.id/live/eds/MyFamily/sa_dash_vmx/MyFamily.mpd';
+let my_cinema = 'https://nyanv-live-cdn.mncnow.id/live/eds/MyCinema/sa_dash_vmx/MyCinema.mpd';
+let my_cinema_asia = 'https://nyanv-live-cdn.mncnow.id/live/eds/MyCinema-Asia/sa_dash_vmx/MyCinema-Asia.mpd';
+let my_family = 'https://nyanv-live-cdn.mncnow.id/live/eds/MyFamily/sa_dash_vmx/MyFamily.mpd';
 
 //entertainment
-let tvn = 'https://alpukat-live-cdn.mncnow.id/live/eds/tvN/sa_dash_vmx/tvN.mpd';
-let hits = 'https://alpukat-live-cdn.mncnow.id/live/eds/HITS/sa_dash_vmx/HITS.mpd';
-let musictv = 'https://alpukat-live-cdn.mncnow.id/live/eds/MusicChannel/sa_dash_vmx/MusicChannel.mpd';
+let tvn = 'https://nyanv-live-cdn.mncnow.id/live/eds/tvN/sa_dash_vmx/tvN.mpd';
+let hits = 'https://nyanv-live-cdn.mncnow.id/live/eds/HITS/sa_dash_vmx/HITS.mpd';
+let musictv = 'https://nyanv-live-cdn.mncnow.id/live/eds/MusicChannel/sa_dash_vmx/MusicChannel.mpd';
 
 
 
@@ -2214,27 +2214,27 @@ function ganti_axn() {
 }
 
 function ganti_cinemachi() {
-  cinemachi = 'https://pisionplus.xyssatu.workers.dev/live/eds/Cinemachi-HD/sa_dash_vmx/Cinemachi-HD.mpd';
+  cinemachi = 'https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-HD/sa_dash_vmx/Cinemachi-HD.mpd';
   init34();
 }
 
 function ganti_cinemachi_action() {
-  cinemachi_action = 'https://pisionplus.xyssatu.workers.dev/live/eds/Cinemachi-Action/sa_dash_vmx/Cinemachi-Action.mpd';
+  cinemachi_action = 'https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Action/sa_dash_vmx/Cinemachi-Action.mpd';
   init35();
 }
 
 function ganti_cinemachi_kids() {
-  cinemachi_kids = 'https://pisionplus.xyssatu.workers.dev/live/eds/Cinemachi-Kids-HD/sa_dash_vmx/Cinemachi-Kids-HD.mpd';
+  cinemachi_kids = 'https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Kids-HD/sa_dash_vmx/Cinemachi-Kids-HD.mpd';
   init36();
 }
 
 function ganti_cinemachi_max() {
-  cinemachi_max = 'https://pisionplus.xyssatu.workers.dev/live/eds/Cinemachi-Max-HD/sa_dash_vmx/Cinemachi-Max-HD.mpd';
+  cinemachi_max = 'https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Max-HD/sa_dash_vmx/Cinemachi-Max-HD.mpd';
   init37();
 }
 
 function ganti_cinemachi_xtra() {
-  cinemachi_xtra = 'https://pisionplus.xyssatu.workers.dev/live/eds/Cinemachi-Xtra-HD/sa_dash_vmx/Cinemachi-Xtra-HD.mpd';
+  cinemachi_xtra = 'https://nyanv-live-cdn.mncnow.id/live/eds/Cinemachi-Xtra-HD/sa_dash_vmx/Cinemachi-Xtra-HD.mpd';
   init38();
 }
 
