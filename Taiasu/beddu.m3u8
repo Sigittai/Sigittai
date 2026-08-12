@@ -1,0 +1,11 @@
+#EXTM3U
+## Generated with https://github.com/shaka-project/shaka-packager version v3.0.4-20260402-093613-73abb107-release
+
+#EXT-X-INDEPENDENT-SEGMENTS
+
+
+#EXT-X-CONTENT-STEERING:SERVER-URI="data:application/vnd.apple.steering-list;base64,eyJWRVJTSU9OIjoxLCJUVEwiOjMwLCJQQVRIV0FZLVBSSU9SSVRZIjpbInByaW1hcnkiLCJiYWNrdXAiXX0=",PATHWAY-ID="primary"
+#EXT-X-MEDIA:TYPE=AUDIO,URI="/stream/205/file/primary/aac/hdntl=exp=1786515299~acl=%2fstream%2f205%2ffile%2fmaster.m3u8!%2fstream%2f205%2ffile%2f*%2faac%2f*!%2fstream%2f205%2ffile%2f*%2f*-2160p%2f*!%2fstream%2f205%2ffile%2f*%2f*-1440p%2f*!%2fstream%2f205%2ffile%2f*%2f*-1080p%2f*!%2fstream%2f205%2ffile%2f*%2f*-720p%2f*!%2fstream%2f205%2ffile%2f*%2f*-480p%2f*!%2fstream%2f205%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=aead36acfddc433515262c73545c9f69444363de95036f3dc4ab0c4e37c2d85f/index.m3u8",GROUP-ID="primary-audio",NAME="aac",DEFAULT=NO,AUTOSELECT=YES,CHANNELS="2"
+#EXT-X-MEDIA:TYPE=AUDIO,URI="/stream/205/file/backup/aac/hdntl=exp=1786515299~acl=%2fstream%2f205%2ffile%2fmaster.m3u8!%2fstream%2f205%2ffile%2f*%2faac%2f*!%2fstream%2f205%2ffile%2f*%2f*-2160p%2f*!%2fstream%2f205%2ffile%2f*%2f*-1440p%2f*!%2fstream%2f205%2ffile%2f*%2f*-1080p%2f*!%2fstream%2f205%2ffile%2f*%2f*-720p%2f*!%2fstream%2f205%2ffile%2f*%2f*-480p%2f*!%2fstream%2f205%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=aead36acfddc433515262c73545c9f69444363de95036f3dc4ab0c4e37c2d85f/index.m3u8",GROUP-ID="backup-audio",NAME="aac",DEFAULT=NO,AUTOSELECT=YES,CHANNELS="2"
+#EXT-X-STREAM-INF:BANDWIDTH=4902012,AVERAGE-BANDWIDTH=1613672,CODECS="av01.0.08M.08.0.110.01.01.01.0,mp4a.40.2",RESOLUTION=1920x1080,FRAME-RATE=25.000,AUDIO="primary-audio",CLOSED-CAPTIONS=NONE,PATHWAY-ID="primary"
+/stream/205/file/primary/av1-1080p/hdntl=exp=1786515299~acl=%2fstream%2f205%2ffile%2fmaster.m3u8!%2fstream%2f205%2ffile%2f*%2faac%2f*!%2fstream%2f205%2ffile%2f*%2f*-2160p%2f*!%2fstream%2f205%2ffile%2f*%2f*-1440p%2f*!%2fstream%2f205%2ffile%2f*%2f*-1080p%2f*!%2fstream%2f205%2ffile%2f*%2f*-720p%2f*!%2fstream%2f205%2ffile%2f*%2f*-480p%2f*!%2fstream%2f205%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=aead36acfddc433515262c73545c9f69444363de95036f3dc4ab0c4e37c2d85f/index.m3u8
